@@ -1,0 +1,24 @@
+the characteristic polynomial of the Linial arrangement \mathcal{A}^[1,0] is as follow
+t^8
+
+the characteristic polynomial of the Linial arrangement \mathcal{A}^[1,1] is as follow
+t^8-120t^7+7140t^6-264600t^5+6540030t^4-108901800t^3+1181603220t^2-7583286600t^1+21918282249t^0
+
+the characteristic polynomial of the Linial arrangement \mathcal{A}^[1,2] is as follow
+t^8-240t^7+27440t^6-1915200t^5+88161360t^4-2716963200t^3+54385106720t^2-643164643200t^1+3426392186728t^0
+
+the characteristic polynomial of the Linial arrangement \mathcal{A}^[1,4] is as follow
+t^8-480t^7+107520t^6-14515200t^5+1281219408t^4-75249457920t^3+2857900896480t^2-63918602553600t^1+642465923287416t^0
+
+the characteristic polynomial of the Linial arrangement \mathcal{A}^[1,5] is as follow
+t^8-600t^7+167300t^6-28035000t^5+3065453790t^4-222698637000t^3+10449830016500t^2-288505461225000t^1+3577184806486057t^0
+
+the characteristic polynomial of the Linial arrangement \mathcal{A}^[1,9] is as follow
+t^8-1080t^7+538020t^6-160234200t^5+31018986558t^4-3977954041320t^3+328758988903380t^2-15957853314798600t^1+347373804233610441t^0
+
+the characteristic polynomial of the Linial arrangement \mathcal{A}^[1,14] is as follow
+t^8-1680t^7+1297520t^6-597643200t^5+178602069408t^4-35307879102720t^3+4493170619530880t^2-335521093135065600t^1+11227745283721390816t^0
+
+the characteristic polynomial of the Linial arrangement \mathcal{A}^[1,29] is as follow
+t^8-3480t^7+5550020t^6-5266510200t^5+3236633286558t^4-1314003597910920t^3+343011765319289780t^2-52494228716611434600t^1+3597446896074261934441t^0
+

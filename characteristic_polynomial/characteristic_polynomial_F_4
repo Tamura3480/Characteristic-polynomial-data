@@ -1,0 +1,12 @@
+the characteristic polynomial of the Linial arrangement \mathcal{A}^[1,0] is as follow
+t^4
+
+the characteristic polynomial of the Linial arrangement \mathcal{A}^[1,1] is as follow
+t^4-24t^3+258t^2-1368t^1+2917t^0
+
+the characteristic polynomial of the Linial arrangement \mathcal{A}^[1,2] is as follow
+t^4-48t^3+1000t^2-10176t^1+41572t^0
+
+the characteristic polynomial of the Linial arrangement \mathcal{A}^[1,5] is as follow
+t^4-120t^3+5986t^2-143160t^1+1361989t^0
+

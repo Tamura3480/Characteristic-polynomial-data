@@ -1,0 +1,10 @@
+6#period
+4#the number of divisor of period
+1#gcd(1,period)
+1 36 510 3600 13089 22284 12320 #coefficient
+2#gcd(2,period)
+1 36 510 3600 13224 23904 16640 #coefficient
+3#gcd(3,period)
+1 36 510 3600 13089 22284 12960 #coefficient
+6#gcd(4,period)
+1 36 510 3600 13224 23904 17280 #coefficient

@@ -9,17 +9,17 @@ We use Python 3.8.5.
 
 The following two Python programs are available.
 ・"compute_the_characteristic_polynomial.py"
-・"check_the_Postnikov_Stanley_Linial_arrangement_Conjecture.py"
+・"check_the_Postnikov_Stanley_Linial_arrangement_conjecture.py"
 
 When we use them, it is necessary to assign "E_6","E_7","E_8" or "F_4" to the variable "phi" in each program. the variable "phi" means root system. 
 
 When we determine the variable "phi" and run "compute_the_characteristic_polynomial.py", the characteristic polynomial of the Linial arrangement of "phi" is output to the file "characteristic_polynomial/characteristic_polynomial_{phi}.txt".
 
-When we determine the variable "phi" and run "check_the_Postnikov_Stanley_Linial_arrangement_Conjecture.py", we can check the conjecture for the Linial arrangement of "phi". If the conjecture holds, then the sentence "All the roots of the characteristic polynomial have the same real part nh/2" appears.
+When we determine the variable "phi" and run "check_the_Postnikov_Stanley_Linial_arrangement_conjecture.py", we can check the conjecture for the Linial arrangement of "phi". If the conjecture holds, then the sentence "All the roots of the characteristic polynomial have the same real part nh/2" appears.
 
 ### Python3 program
 * compute_the_characteristic_polynomial.py
-* check_the_Postnikov_Stanley_Linial_arrangement_Conjecture.py
+* check_the_Postnikov_Stanley_Linial_arrangement_conjecture.py
 
 ### Folder
 * constant_of_Ehrhart_quasi_polynomial

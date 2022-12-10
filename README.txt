@@ -2,7 +2,7 @@
 Python program to compute the characteristic polynomial of the Linial arrangement of the exceptional root system and check the Postnikov-Stanley Linial arrangement conjecture. 
 
 ### Method
-We transform the characteristic polynomial to the appropriate polynomial. Specifically, the characteristic polynomial is shifted by -nh/2 and then rotated 90 degrees around the origin. We apply the Fourier-Budan theorem to the transformed characteristic polynomial and count the number of real roots of it. If all the roots of the transformed characteristic polynomial are real, then all the roots of the characteristic polynomial have the same real part nh/2.
+We transform the characteristic polynomial to the appropriate polynomial. Specifically, the characteristic polynomial is shifted by -nh/2 and then rotated 90 degrees around the origin. We count the number of real roots of the transformed characteristic polynomial using the Fourier Budan Theorem. If all the roots of the transformed characteristic polynomial are real, then all the roots of the characteristic polynomial have the same real part nh/2. 
 
 ### Usage
 We use Python 3.8.5. 

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#Python version 3.8.5 
+#Python version 3.8.5
 import math
 from fractions import Fraction
 from typing import List
@@ -97,7 +97,7 @@ def Fourier_Budan(polynomial :List[int] ,start_point :int ,end_point :int) -> in
 
 #We transform the characteristic polynomial to the appropriate polynomial.
 #Specifically, the characteristic polynomial is shifted by -nh/2 and then rotated 90 degrees around the origin.
-#We apply the Fourier-Budan theorem to the transformed characteristic polynomial and count the number of real roots of it.
+#We count the number of real roots of the transformed characteristic polynomial using the Fourier Budan Theorem.
 #If all the roots of the transformed characteristic polynomial are real, then all the roots of the characteristic polynomial have the same real part nh/2.
 
 phi="E_8"
@@ -105,6 +105,7 @@ phi="E_8"
 rad_period={"E_6":6,"E_7":6,"E_8":30,"F_4":6}
 arrangement_list=list(set([math.gcd(i,rad_period[phi])-1 for i in range(rad_period[phi])]))#list of n of Linial arrangement \mathcal{A}^[1,n]
 del arrangement_list[0]
+
 
 generalized_Eulerian_polynomial=generate_generalized_Eulerian_polynomial(phi)#R_{phi}(t)
 Ehrhart_quasi_polynomial=generate_Ehrhart_quasi_polynomial(phi)#L_{phi}(t)

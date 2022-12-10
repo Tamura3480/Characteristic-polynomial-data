@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#Python version 3.8.5
+#Python version 3.8.5 
 import math
 from fractions import Fraction
 from typing import List

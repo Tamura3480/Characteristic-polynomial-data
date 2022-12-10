@@ -8,7 +8,7 @@ We transform the characteristic polynomial to the appropriate polynomial. Specif
 We use Python 3.8.5. 
 
 The following two Python programs are available.
-・"compute_the_characteristic_polynomial.py"
+・"compute_the_characteristic_polynomial.py"  
 ・"check_the_Postnikov_Stanley_Linial_arrangement_conjecture.py"
 
 When we use them, it is necessary to assign "E_6","E_7","E_8" or "F_4" to the variable "phi" in each program. the variable "phi" means root system. 
@@ -22,10 +22,10 @@ When we determine the variable "phi" and run "check_the_Postnikov_Stanley_Linial
 * check_the_Postnikov_Stanley_Linial_arrangement_conjecture.py
 
 ### Folder
-* constant_of_Ehrhart_quasi_polynomial
-W:=Weyl group
-f:=the index of connection
-|W|/f is recorded in the files in this folder.
+* constant_of_Ehrhart_quasi_polynomial. 
+W:=Weyl group. 
+f:=the index of connection. 
+|W|/f is recorded in the files in this folder.  
 
 * Ehrhart_quasi_polynomial_data
   The coefficient of the Ehrhart quasi polynomial, the period, and the number of divisor of the period are recorded in the files in this folder.

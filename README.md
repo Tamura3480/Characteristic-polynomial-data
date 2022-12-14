@@ -34,4 +34,4 @@ f:=the index of connection.
   The coefficient of the classical Eulerian polynomial in the files in this folder.
 
 * root_system_ci_data.     
-　The values of c_0, c_1, ・・・, c_l are recorded in the files in this folder.
+  The values of c_0, c_1, ・・・, c_l are recorded in the files in this folder.

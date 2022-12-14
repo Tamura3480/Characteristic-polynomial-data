@@ -143,7 +143,7 @@ def shift_operator_act_on_polynomial(shift_operator :List[int] ,polynomial :List
 #input  :the root system phi , period and n
 #output :m*|W|/f
 def generate_constant(phi :str ,period :int ,n :int) -> int:
-    with open(f"constant_of_the_Ehrhart_quasi_polynomials/constant_of_the_Ehrhart_{phi}.txt") as const_data:
+    with open(f"constants_of_the_Ehrhart_quasi_polynomials/constant_of_the_Ehrhart_{phi}.txt") as const_data:
         frac_W_f=int(const_data.readline().split()[0])
     m=Fraction(period,math.gcd(n,period))
     return m*frac_W_f

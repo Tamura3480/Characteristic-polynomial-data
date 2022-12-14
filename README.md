@@ -22,7 +22,7 @@ When we determine the variable "phi" and run "check_the_Postnikov_Stanley_Linial
 * check_the_Postnikov_Stanley_Linial_arrangement_conjecture.py
 
 ### Folder
-* constant_of_Ehrhart_quasi_polynomial.      
+* constants_of_the_Ehrhart_quasi_polynomials.      
 W:=Weyl group.      
 f:=the index of connection.      
 |W|/f is recorded in the files in this folder.      

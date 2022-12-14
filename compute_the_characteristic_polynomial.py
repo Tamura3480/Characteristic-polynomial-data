@@ -10,7 +10,7 @@ from fractions import Fraction
 #output :the Eulerian polynomial A_l(t) (rank l)
 def generate_Eulerian_polynomial(phi :str) -> List[int]:
     if not(phi in {"E_6","E_7","E_8","F_4"}):
-        raise ValueError("Only exception root system")
+        raise ValueError("Only exceptional root system")
     with open(f"Eulerian_polynomial_data/Eulerian_polynomial_{phi}.txt") as polynomial_data:
         Eulerian_polynomial=list(map(int,polynomial_data.readline().split()))
     return Eulerian_polynomial
@@ -21,7 +21,7 @@ def generate_Eulerian_polynomial(phi :str) -> List[int]:
 #output :the Ehrhart quasi polynomial of the fundamental alcove of phi up to constant factor (|W|/f)*L_{phi}(t)
 def generate_Ehrhart_quasi_polynomial(phi :str) -> List[List[int]]:
     if not(phi in {"E_6","E_7","E_8","F_4"}):
-        raise ValueError("Only exception root system")
+        raise ValueError("Only exceptional root system")
     with open(f"Ehrhart_quasi_polynomial_data/Ehrhart_quasi_polynomial_{phi}.txt") as quasi_polynomial_data:
         period=int(quasi_polynomial_data.readline())
         ndivisor=int(quasi_polynomial_data.readline())

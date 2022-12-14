@@ -27,11 +27,11 @@ W:=Weyl group.
 f:=the index of connection.      
 |W|/f is recorded in the files in this folder.      
 
-* Ehrhart_quasi_polynomial_data. 
+* Ehrhart_quasi_polynomial_data.    
   The coefficient of the Ehrhart quasi polynomial, the period, and the number of divisor of the period are recorded in the files in this folder.
 
-* Eulerian_polynomial_data. 
+* Eulerian_polynomial_data.    
   The coefficient of the classical Eulerian polynomial in the files in this folder.
 
-* root_system_ci_data. 
+* root_system_ci_data.     
 　The values of c_0, c_1, ・・・, c_l are recorded in the files in this folder.

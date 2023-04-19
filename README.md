@@ -1,5 +1,5 @@
 ### Abstract
-Python program to compute the characteristic polynomial of the Linial arrangement of the exceptional root system and check the Postnikov-Stanley Linial arrangement conjecture. 
+Python program to compute characteristic polynomials of the Linial arrangement for exceptional root systems and check the Postnikov-Stanley Linial arrangement conjecture. 
 
 ### Method
 We transform the characteristic polynomial to the appropriate polynomial. Specifically, the characteristic polynomial is shifted by -nh/2 and then rotated 90 degrees around the origin. We count the number of real roots of the transformed characteristic polynomial using the Fourier Budan Theorem. If all the roots of the transformed characteristic polynomial are real, then all the roots of the characteristic polynomial have the same real part nh/2. 
@@ -13,7 +13,7 @@ The following two Python programs are available.
 
 When we use them, it is necessary to assign "E_6","E_7","E_8" or "F_4" to the variable "phi" in each program. the variable "phi" means root system. 
 
-When we determine the variable "phi" and run "compute_the_characteristic_polynomial.py", the characteristic polynomial of the Linial arrangement of "phi" is output to the file "characteristic_polynomial/characteristic_polynomial_{phi}.txt".
+When we determine the variable "phi" and run "compute_the_characteristic_polynomial.py", the characteristic polynomial of the Linial arrangement for "phi" is output to the file "characteristic_polynomial/characteristic_polynomial_{phi}.txt".
 
 When we determine the variable "phi" and run "check_the_Postnikov_Stanley_Linial_arrangement_conjecture.py", we can check the conjecture for the Linial arrangement of "phi". If the conjecture holds, then the sentence "All the roots of the characteristic polynomial have the same real part nh/2" appears.
 
